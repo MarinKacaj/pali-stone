@@ -75,8 +75,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Pali Stone Work Service"
+        const siteDescription = "Rock solid support for construction and stone"
 
         return (
             <Layout>
@@ -89,16 +89,19 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>About us</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>
+                        Pali Stone Work Service Inc., 
+                        is a family owned company that strives to be more than a typical craft and construction work company. 
+                        We can do any size job from house wall masonry to participating in large commercial projects. 
+                        </p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="#recent-work" className="button">Check out our work</a></li>
                         </ul>
                     </section>
 
-                    <section id="two">
+                    <section id="two" name="recent-work">
                         <h2>Recent Work</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
@@ -109,13 +112,12 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
+                            <li><a href="#contact" className="button">Contact us</a></li>
                         </ul>
                     </section>
 
-                    <section id="three">
+                    <section id="three" name="contact">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -133,17 +135,13 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        1234 Rue de Lille.<br />
+                                        Lyon, 1018NB<br />
+                                        France
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        111-222-3333
                                     </li>
                                 </ul>
                             </div>
