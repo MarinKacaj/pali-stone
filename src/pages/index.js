@@ -137,12 +137,12 @@ class HomeIndex extends React.Component {
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Addresse</span></h3>
                                         1234 Rue de Lille.<br />
-                                        Lyon, 1018NB<br />
+                                        Saint Étienne 4200<br />
                                         France
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        111-222-3333
+                                        +33 7 58 44 05 78 
                                     </li>
                                 </ul>
                             </div>
