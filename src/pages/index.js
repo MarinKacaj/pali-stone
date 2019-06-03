@@ -121,15 +121,17 @@ class HomeIndex extends React.Component {
                         <h2>Contact</h2>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form name="contact" action="POST" data-netlify="true">
+                                <form name="contact" method="POST" data-netlify="true">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Prenom" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
-                                    <ul className="actions">
-                                        <li><input type="submit" value="Envoyer" /></li>
-                                    </ul>
+                                    <div className="row uniform">
+				        <ul className="actions">
+                                            <li><input type="submit" value="Envoyer" /></li>
+                                        </ul>
+				    </div>
 				</form>
                             </div>
                             <div className="4u 12u$(small)">
