@@ -20,12 +20,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Arche de pierre', description: 'Arcade en pierre &agrave; l\'entr&eacute;e d\'un manoir.'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Mur ext&eacute;rieur', description: 'Tout le mur ext&eacute;rieur de cette maison a &eacute;t&eacute; construit en un temps record par notre &eacute;quipe'},
+    { id: '3', src: full03, thumbnail: thumb03, caption: 'Colonnes de pierre', description: 'Colonnes de pierre &agrave; forte charge'},
+    { id: '4', src: full04, thumbnail: thumb04, caption: 'Plancher de pierre', description: 'Sol &eacute;l&eacute;gant avec un d&eacute;cor en pierre'},
+    { id: '5', src: full05, thumbnail: thumb05, caption: 'Mur porteur', description: 'Destin&eacute; &agrave; supporter la charpente et la structure des planchers d\'un b&acirc;timent'},
+    { id: '6', src: full06, thumbnail: thumb06, caption: 'L\'ensemble du b&acirc;timent', description: 'Murs, colonnes, planchers, tous par nous'}
 ];
 
 class HomeIndex extends React.Component {
@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Pali Stone Work Service"
+        const siteTitle = "Pali - Service de travail de la pierre"
         const siteDescription = "Rock solid support for construction and stone"
 
         return (
@@ -92,7 +92,7 @@ class HomeIndex extends React.Component {
                             <h2>Qui sommes-nous?</h2>
                         </header>
                         <p>
-                        Pali Stone Work Service Inc., 
+                        Pali - Service de travail de la pierre, 
                         est une entreprise familiale qui s'efforce d'&ecirc;tre plus qu'une entreprise typique d'artisanat 
                         et de construction. Nous pouvons faire n'importe quel travail de taille, 
                         de la ma&ccedil;onnerie de murs de maison &agrave; la participation &agrave; de grands projets commerciaux.
