@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Pali Stone Work Service",
+    title: "Uklala Stone Work Service",
     author: "Marinator",
-    description: "Rock solid support for stone construction"
+    description: "Support solide pour la construction en pierre"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

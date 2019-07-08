@@ -20,7 +20,7 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Arche de pierre', description: 'Arcade en pierre &agrave; l\'entr&eacute;e d\'un manoir.'},
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Arche de pierre', description: 'Arcade en pierre &agrave; l\'entr&eacute;e d\'un manoir'},
     { id: '2', src: full02, thumbnail: thumb02, caption: 'Mur ext&eacute;rieur', description: 'Tout le mur ext&eacute;rieur de cette maison a &eacute;t&eacute; construit en un temps record par notre &eacute;quipe'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Colonnes de pierre', description: 'Colonnes de pierre &agrave; forte charge'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Plancher de pierre', description: 'Sol &eacute;l&eacute;gant avec un d&eacute;cor en pierre'},
@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Pali - Service de travail de la pierre"
+        const siteTitle = "Uklala - Service de travail de la pierre"
         const siteDescription = "Rock solid support for construction and stone"
 
         return (
@@ -92,7 +92,7 @@ class HomeIndex extends React.Component {
                             <h2>Qui sommes-nous?</h2>
                         </header>
                         <p>
-                        Pali - Service de travail de la pierre, 
+                        Uklala - Service de travail de la pierre, 
                         est une entreprise familiale qui s'efforce d'&ecirc;tre plus qu'une entreprise typique d'artisanat 
                         et de construction. Nous pouvons faire n'importe quel travail de taille, 
                         de la ma&ccedil;onnerie de murs de maison &agrave; la participation &agrave; de grands projets commerciaux.
@@ -144,6 +144,10 @@ class HomeIndex extends React.Component {
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
                                         +33 7 58 44 05 78 
+                                    </li>
+                                    <li>
+                                        <h3 className="icon fa-envelope"><span className="label">Email</span></h3>
+                                        toni.uklala1@gmail.com
                                     </li>
                                 </ul>
                             </div>
