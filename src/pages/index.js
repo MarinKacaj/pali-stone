@@ -20,12 +20,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Arche de pierre', description: 'Arcade en pierre &agrave; l\'entr&eacute;e d\'un manoir'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Mur ext&eacute;rieur', description: 'Tout le mur ext&eacute;rieur de cette maison a &eacute;t&eacute; construit en un temps record par notre &eacute;quipe'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Colonnes de pierre', description: 'Colonnes de pierre &agrave; forte charge'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Plancher de pierre', description: 'Sol &eacute;l&eacute;gant avec un d&eacute;cor en pierre'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Mur porteur', description: 'Destin&eacute; &agrave; supporter la charpente et la structure des planchers d\'un b&acirc;timent'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'L\'ensemble du b&acirc;timent', description: 'Murs, colonnes, planchers, tous par nous'}
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Arche de pierre', description: 'Arcade en pierre à l\'entrée d\'un manoir'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Mur extérieur', description: 'Tout le mur extérieur de cette maison a été construit en un temps record par notre équipe'},
+    { id: '3', src: full03, thumbnail: thumb03, caption: 'Colonnes de pierre', description: 'Colonnes de pierre à forte charge'},
+    { id: '4', src: full04, thumbnail: thumb04, caption: 'Plancher de pierre', description: 'Sol élégant avec un décor en pierre'},
+    { id: '5', src: full05, thumbnail: thumb05, caption: 'Mur porteur', description: 'Destiné à supporter la charpente et la structure des planchers d\'un bâtiment'},
+    { id: '6', src: full06, thumbnail: thumb06, caption: 'L\'ensemble du bâtiment', description: 'Murs, colonnes, planchers, tous par nous'}
 ];
 
 class HomeIndex extends React.Component {
