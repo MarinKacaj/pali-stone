@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Uklala - Service de travail de la pierre"
+        const siteTitle = "Pali - Service de travail de la pierre"
         const siteDescription = "Rock solid support for construction and stone"
 
         return (
@@ -92,7 +92,7 @@ class HomeIndex extends React.Component {
                             <h2>Qui sommes-nous?</h2>
                         </header>
                         <p>
-                        Uklala - Service de travail de la pierre, 
+                        Pali - Service de travail de la pierre, 
                         est une entreprise familiale qui s'efforce d'&ecirc;tre plus qu'une entreprise typique d'artisanat 
                         et de construction. Nous pouvons faire n'importe quel travail de taille, 
                         de la ma&ccedil;onnerie de murs de maison &agrave; la participation &agrave; de grands projets commerciaux.
