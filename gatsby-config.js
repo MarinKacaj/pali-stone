@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Uklala Stone Work Service",
+    title: "Pali Stone Work Service",
     author: "Marinator",
     description: "Support solide pour la construction en pierre"
   },
